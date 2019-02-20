@@ -1,4 +1,4 @@
-# My-Freecodecamp-Code
+# My-Freecodecamp-Journey
 
 ## Welcome
 
