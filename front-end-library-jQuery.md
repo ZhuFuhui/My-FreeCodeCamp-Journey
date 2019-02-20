@@ -1,4 +1,4 @@
-# Front end library - jQuery {ignore=true}
+# Front end library: jQuery {ignore=true}
 
 ## Content {ignore=true}
 

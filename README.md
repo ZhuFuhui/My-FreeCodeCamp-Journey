@@ -10,11 +10,11 @@ Welcome to the My-FreeCodeCamp-Journey wiki! This repository is not for an appli
 
 - [jQuery](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/wiki/Front-End-Library:-jQuery)
 
+- [Sass](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/wiki/Front-End-Library:-Sass)
+
 Above: COMPLETED
 ***
 Below: TODO
-
-- [Sass]
 
 - [React]
 

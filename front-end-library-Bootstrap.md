@@ -1,4 +1,4 @@
-# Front end library - Bootstrap {ignore=true}
+# Front end library: Bootstrap {ignore=true}
 
 ## Content {ignore=true}
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
