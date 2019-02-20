@@ -10,7 +10,18 @@ Welcome to the My-FreeCodeCamp-Journey wiki! This repository is not for an appli
 
 - [jQuery](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/wiki/Front-End-Library:-jQuery)
 
-
 Above: COMPLETED
 ***
 Below: TODO
+
+- [Sass]
+
+- [React]
+
+- [Redux]
+
+- [React and Redux]
+
+- [Front end libraries projects]
+
+
