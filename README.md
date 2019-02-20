@@ -8,6 +8,9 @@ Welcome to the My-FreeCodeCamp-Journey wiki! This repository is not for an appli
 
 - [Bootstrap](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/wiki/Front-End-Library:-Bootstrap)
 
+- [jQuery](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/wiki/Front-End-Library:-jQuery)
+
+
 Above: COMPLETED
 ***
 Below: TODO

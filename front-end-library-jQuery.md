@@ -2,6 +2,33 @@
 
 ## Content {ignore=true}
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+* [Learn how script tags and document ready work](#learn-how-script-tags-and-document-ready-work)
+* [Target HTML elems. with selectors using jQuery](#target-html-elems-with-selectors-using-jquery)
+* [Target elements by class using jQuery](#target-elements-by-class-using-jquery)
+* [Target elems by id using jQuery](#target-elems-by-id-using-jquery)
+* [Del ur jQuery funs](#del-ur-jquery-funs)
+* [Target the same elem with multiple jQuery selectors](#target-the-same-elem-with-multiple-jquery-selectors)
+* [Remove classes from an elem with jQuery](#remove-classes-from-an-elem-with-jquery)
+* [Change the CSS of an elem using jQuery](#change-the-css-of-an-elem-using-jquery)
+* [Disable an elem using jQuery](#disable-an-elem-using-jquery)
+* [Change text inside an elem using jeQuery](#change-text-inside-an-elem-using-jequery)
+* [Remove an elem using jQuery](#remove-an-elem-using-jquery)
+* [Use appendTo to move elems with jQuery](#use-appendto-to-move-elems-with-jquery)
+* [Clone an elem using JQuery](#clone-an-elem-using-jquery)
+* [Target the parent of an elem using jQuery](#target-the-parent-of-an-elem-using-jquery)
+* [Target the children of an elem using jQuery](#target-the-children-of-an-elem-using-jquery)
+* [Target a specific child of an elem using jQuery](#target-a-specific-child-of-an-elem-using-jquery)
+* [Target even elems using jQuery](#target-even-elems-using-jquery)
+* [Use jQuery to modify the entire page](#use-jquery-to-modify-the-entire-page)
+
+<!-- /code_chunk_output -->
+
+
 ## Learn how script tags and document ready work
 
 jQuery is the most popular JS tool.
@@ -153,3 +180,111 @@ will disable the `#target1` elem.
 jQuery has a fun called `.html()` that lets u add HTML tags and text within an elem. Any content previously within the elem will be completely replaced with the content u provide using this fun.
 
 jQuery also has a similar fun called `.text()` that only alters text without adding tags. In other words, this fun will not evaluate any HTML tags passed to it, but will instead treat it as he text u want to replace the existing content with.
+
+```
+<script>
+  $(document).ready(function() {
+    $("#target4").html("<em>#target4</em>")
+  });
+</script>
+```
+reset the text on button `#target4` to be emphasized.
+
+## Remove an elem using jQuery
+
+jQuery has a fun called `.remove()` that will remove an HTML elem entirely.
+
+```
+<script>
+  $(document).ready(function() {
+    $("#target4").remove();
+  });
+</script>
+```
+
+will remove the elem `#target4`.
+
+## Use appendTo to move elems with jQuery
+
+jQuery has a fun called `.appendTO()` that allows u to select HTML elems and append them to another elem.
+
+```
+<script>
+  $(document).ready(function() {
+    $("#target2").appendTo("#right-well")
+  });
+</script>
+```
+move elem `#target2` to the div `#right-well`.
+
+## Clone an elem using JQuery
+
+`.clone()` can make a copy of an elem.
+It should be combined to other funs when using, and this is called `function chaining`.
+
+```
+<script>
+  $(document).ready(function() {
+    $("#target5").clone().appendTo("#left-well");
+  });
+</script>
+```
+clone `#target5` and move it to `#left-well`.
+
+## Target the parent of an elem using jQuery
+
+`.parent()` allows to access the parent of whichever elem selected.
+
+```
+<script>
+  $(document).ready(function() {
+    $("#target1").parent().css("background-color", "red");
+  });
+</script>
+```
+change the elem `#target1`'s parent elem's background color to red.
+
+## Target the children of an elem using jQuery
+
+```
+<script>
+  $(document).ready(function() {
+    $("#right-well").children().css("color", "orange");
+  });
+</script>
+```
+change the elem `#right-well`'s children's color to orange.
+
+## Target a specific child of an elem using jQuery
+
+```
+<script>
+  $(document).ready(function() {
+    $(".target:nth-child(2)").addClass("animated bounce");
+  });
+</script>
+```
+The `target:nth-child(n)` CSS selector allows you to select all the nth elements with the target class or element type.
+
+## Target even elems using jQuery
+
+```
+<script>
+  $(document).ready(function() {
+    $(".target:even").addClass("animated shake");
+  });
+</script>
+```
+
+## Use jQuery to modify the entire page
+
+jQuery can target the `body` elem as well.
+
+```
+<script>
+  $(document).ready(function() {
+    $("body").addClass("animated hinge");
+  });
+</script>
+```
+make the whole page to rotate like a hinge.
