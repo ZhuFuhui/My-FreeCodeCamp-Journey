@@ -6,11 +6,11 @@ Welcome to the My-FreeCodeCamp-Journey wiki! This repository is not for an appli
 
 ## Front End Libraries Certification
 
-- [Bootstrap](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/wiki/Front-End-Library:-Bootstrap)
+- [Bootstrap](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/blob/master/front-end-library-Bootstrap.md)
 
-- [jQuery](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/wiki/Front-End-Library:-jQuery)
+- [jQuery](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/blob/master/front-end-library-jQuery.md)
 
-- [Sass](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/wiki/Front-End-Library:-Sass)
+- [Sass](https://github.com/ZhuFuhui/My-FreeCodeCamp-Journey/blob/master/Front-end-library-Sass.md)
 
 Above: COMPLETED
 ***
